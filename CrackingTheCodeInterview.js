@@ -25,7 +25,7 @@ findMaxSum(arr);
 function getMaxSum(arr) {
   let maxsum = 0;
   let sum=0; 
-  for (inti=0;i<arr.length;i++){
+  for (inti=0;i<arr.length;i++) {
     sum += arr[i];
   if (maxsum < sum) {
     maxsum = sum;
@@ -33,4 +33,5 @@ function getMaxSum(arr) {
       sum = 0;
       }
   return maxsum;
-  
+  }
+}
